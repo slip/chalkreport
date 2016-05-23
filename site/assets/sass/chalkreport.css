@@ -118,11 +118,11 @@ pre code, pre samp, pre kbd { background-color: transparent; border: none; borde
 
 a:link { color: #4076D4; }
 
-a:visited { color: #9140D4; }
+a:visited { color: #3C2462; }
 
 a:hover, a:focus { color: #2e68cc; }
 
-a:active { color: #D44076; }
+a:active { color: #FF5F69; }
 
 img, video { max-width: 100%; display: table; }
 
@@ -293,11 +293,11 @@ Styleguide 2.0
 
 .btn--link:link { color: #4076D4; }
 
-.btn--link:visited { color: #9140D4; }
+.btn--link:visited { color: #3C2462; }
 
 .btn--link:focus, .btn--link:hover { color: #2e68cc; background-color: transparent; }
 
-.btn--link:active { color: #D44076; background-color: transparent; }
+.btn--link:active { color: #FF5F69; background-color: transparent; }
 
 /*
 
@@ -536,7 +536,7 @@ header { height: 120px; padding: 20px 0 0 20px; background: white; box-shadow: 0
 
 header .logo { max-width: 400px; }
 
-.wrapper { display: flex; align-items: center; justify-content: center; height: calc(100vh - 400px); }
+.wrapper { display: flex; align-items: center; justify-content: center; }
 
 .callout { padding: 2em 2em 1em 2em; background: white; border-radius: 20px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
