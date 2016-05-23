@@ -1,0 +1,53 @@
+.site
+  display: flex
+  min-height: 100vh
+  flex-direction: column
+  justify-content: space-between
+
+  background:
+    image: url(../img/swirl_pattern.png)
+
+.site-content
+  flex: 1
+
+header
+  height: 120px
+  padding: 20px 0 0 20px
+  background: white
+  +box-shadow
+  .logo
+    max-width: 400px
+
+.wrapper
+  display: flex
+  align-items: center
+  justify-content: center
+  height: calc(100vh - 400px)
+
+.callout
+  padding: 2em 2em 1em 2em
+  background: white
+  border-radius: 20px
+  +box-shadow
+
+  .green
+    color: $cr-green
+    font-weight: bold
+
+.hero-img
+  min-width: 250px
+
+.signup
+  padding-top: 1em
+  min-width: 250px
+
+footer
+  height: 60px
+  color: $gray1
+  background: white
+  padding: 20px
+  ul
+    list-style: none
+
+.grid
+  flex-wrap: wrap
